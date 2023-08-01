@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824 -->
+<html lang="en">
+<head>
+	<title>Daniel Glynn</title>
+  <link rel="icon" href="%PUBLIC_URL%/images/favicon.ico" />
+	<meta charset="UTF-8">
+	<meta name="author" content="Daniel Glynn">
+	<link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+</head>
+<body>
+  
+  <div id="nav-bar">
+    <nav>
+      <a href="index.html">ABOUT</a>
+      <a href="projects.html">PROJECTS</a>
+      <a href="resume.html">RESUME</a>
+    </nav>
+    
+    <img id="logo" src="images/DGLogo.png" alt="DG Logo">
+  </div>
+  <div id="main">
+    <div id="header">
+             
+      <h1> Daniel Glynn </h1>
+      <div id="links">
+        <a href="https://github.com/daniel-glynn1" target="_blank">
+          <img src="images/github-mark.png" alt="Github link">
+        </a>
+        <a href="https://www.linkedin.com/in/daniel-glynn-656105206/" target="_blank">
+          <img src="images/LI-In-Bug.png" alt="LinkedIn link">
+        </a>
+        <a href= "mailto: daniel.dg.glynn@gmail.com">
+          <img src="images/emailicon.png" alt="Email link">
+        </a>
+      </div>
+    </div>
+
+    <div id="project-content">
+      
+        <h2>PROJECTS</h2>
+        <div>
+
+          <h3> Todo Today - Daily task tracking app designed to help you build habits</h3>
+          <p>Create a task that you would like to do every day and check it off each day in the app.</p>
+                      
+          <p>Features!</p>
+          <ul>
+            <li>See how you've been doing by checking the history tab</li>
+            <li>View history by week or month</li>
+            <li>See how many days in a row you've done a task and earn a badge for doing a task every day for an entire week or month</li>
+            <div class="todo-images">
+              <img src="images/todo-screenshot1.png" alt="Image of app">
+              <img src="images/todo-screenshot2.png" alt="Image of app">
+              <img src="images/todo-screenshot3.png" alt="Image of app">
+            </div>
+            <li>Need to make a note about a particular task for today? Open up the journal and write it there</li>
+            <li>Hide a task if you don't need to worry about it for now</li>
+            <li>Customizable home screen</li>
+            <li>Show tasks in a grid or list format</li>
+            <li>Dark mode / Light mode</li>
+            <div class="todo-images">
+              <img src="images/todo-screenshot4.png" alt="Image of app">
+              <img src="images/todo-screenshot5.png" alt="Image of app">
+              <img src="images/todo-screenshot6.png" alt="Image of app">
+              <img src="images/todo-screenshot7.png" alt="Image of app">
+
+            </div>
+            <li>And many more!</li>
+
+          </ul>
+
+          <p>Technical Details:</p>
+          <ul>
+            <li>For iOS only</li>
+            <li>Built in Swift and SwiftUI</li>
+            <li>All data stored locally</li>
+
+          </ul>
+
+      
+          <p>Other:</p>
+          <ul>
+            <li>Look for it in the iOS App Store soon</li>
+            <li>*Name subject to change</li>
+          </ul>
+
+        </div>
+
+        <div>
+          <h3> Are My Dice Rigged? - Web app that tells you the statistical significance of a set of 2-dice rolls</h3>
+          <div id="dice-images">
+            <img src="images/dice-screenshot.png" alt="Image of app">
+          </div>
+          <p> Website link: 
+            <a href="https://daniel-glynn1.github.io/dice-rigged/" target="_blank">
+              Are My Dice Rigged?
+            </a>
+          </p>
+
+          <p>About:</p>
+          <ul>
+            <li>Enter the count of each 2-dice sum in its corresponding box and hit calculate</li>
+            <li>Once calculated, you are presented with a graph of the expected values and the actual values, as well as the p-value for the chi-square goodness of fit test that was performed.</li>
+            <li>Gives insight into how likely the results you saw were just due to random chance</li>
+          </ul>
+
+          <p>Technical Details:</p>
+          <ul>
+            <li>Built using React and JavaScript, as well as some HTML/CSS</li>
+            <li>Used a chi-square JavaScript library for the p-value calculations</li>
+            <li>Works entirely on the local browser - no connection to a server necessary</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3> "Pass the Pigs" Online multiplayer game - Based on the dice-based game of the same name</h3>
+          <div id="pigs-images">
+            <img src="images/pigs-screenshot.png" alt="Image of app">
+          </div>
+          
+          <p>About:</p>
+          <ul>
+            <li>Play the game "Pass the Pigs" with your friends online</li>
+            <li>Preview the lobby to see who is already in the game</li>
+            <li>Various quick chat options to send a message to your friends</li>
+            <li>First to 100 points wins</li>
+          </ul>
+
+          <p>Technical Details:</p>
+          <ul>
+            <li>Built using HTML/CSS/JavaScript with p5.js on the front-end and Node.js, Express, and socket.io on the back-end</li>
+            <li>Only one lobby to join - small scale project</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3> Web-based Lumber Market Simulation game - Front-end redesign</h3>
+          <div id="regis-images">
+            <img src="images/regis-screenshot1.png" alt="Image of website">
+            <img src="images/regis-screenshot2.png" alt="Image of website">
+          </div>
+          
+          <p>About:</p>
+          <ul>
+            <li>Front-end development and refactoring of a web-based lumber market simulation game.</li>
+            <li>Buy/sell lumber in different regions to capitalize on the market</li>
+            <li>View messages of actions taken by other players in the game</li>
+            <li>Chat feature to communicate with other players</li>
+          </ul>
+
+          <p>Technical Details:</p>
+          <ul>
+            <li>Built using React, Material-UI, and JavaScript</li>
+            <li>This was a front-end refactor and redesign, not built from the ground up</li>
+            <li>Designed the website to look good on both desktop and mobile devices</li>
+            <li>Group project with other students from Colorado School of Mines students.</li>
+            <li>Worked closely with our client, The Regis Company, to meet their requirements.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3> "Which Statistics Best Predict the Results of NBA games?" - NBA Boxscore Data Analysis Project</h3>
+         
+
+          <p>About:</p>
+          <ul>
+            <li>Data Science project working with an NBA boxscore dataset</li>
+            <li>Multiple machine learning models fitted to data and
+              assessed to determine which game statistics correlate most with winning and best predict high winning teams</li>
+          </ul>
+
+          <p>Technical Details:</p>
+          <ul>
+            <li>Used Python, scikit-learn, Jupyter notebooks</li>
+          </ul>
+
+          <p>Some graphs from the report:</p>
+          <div id="nba-images">
+            <img src="images/nba-screenshot1.png" alt="Image of app">
+            <img src="images/nba-screenshot2.png" alt="Image of app">
+          </div>
+        </div>
+
+        
+  
+
+    </div>
+  </div>
+
+  
+  
+</body>
+</html>
